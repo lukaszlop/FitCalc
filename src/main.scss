@@ -1,4 +1,10 @@
 @import "./General_settings/reset.scss";
 @import "./General_settings/fonts.scss";
+@import "./General_settings/colors.scss";
+
 @import "./Components/Container/Container.scss";
+
+@import "./Components/Nav_bar/NavBar.scss";
+@import "./Components/Nav_bar/Nav_bar_logo/NavBarLogo.scss";
+@import "./Components/Nav_bar/Nav_bar_menu/NavBarMenu.scss";
 

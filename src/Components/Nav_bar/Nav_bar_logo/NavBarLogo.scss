@@ -1,0 +1,40 @@
+@import '../../../General_settings/fonts.scss';
+@import '../../../General_settings/colors.scss';
+
+.nav-logo {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: $comic-font;
+    text-decoration: none;
+
+    &__image {
+        background-image: url(../../../assets/samurai_warrior_japanese_mask_traditional_helmet_japan_face_icon_127293.svg);
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+
+    &__primary {
+        font-size: 40px;
+        color: white;
+        margin-right: 5px; 
+    }
+
+    &__primary:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+    &__secondary {
+        font-size: 40px;
+        color: $samurai-blue;
+    }
+
+    &__secondary:hover {
+        text-decoration: none;
+        color: $samurai-blue;
+    }
+}

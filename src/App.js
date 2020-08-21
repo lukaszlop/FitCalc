@@ -1,13 +1,11 @@
 import React from 'react';
 import './main.scss';
-import Container from './Components/Container/Container';
+import NavBar from './Components/Nav_bar/NavBar';
 
 
 const App = () => (
   <>
-  <Container>
-
-  </Container>
+  <NavBar />
   </>
 )
 
