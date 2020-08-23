@@ -1,7 +1,7 @@
 @import '../../General_settings/colors.scss';
 
 .carousel-wrapper {
-    background-color: $samurai-dark-grey;
+    background-color: $samurai-green;
 
     .carousel {
         width: 100%;
@@ -11,7 +11,7 @@
 
         .slide {
             min-width: 100%;
-            height: 60vh;
+            height: 70vh;
             transition: .5s;
         }
     }
@@ -20,19 +20,20 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 10%;
-        height: 60vh;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
         background: none;
         border: none;
         outline: none;
         background-color: rgba(255, 255, 255, .3);
 
         &__left {
-            left: 0;
+            left: 30px;
         }
 
         &__right {
-            right: 0;
+            right: 30px;
         }
 
         &__icon {

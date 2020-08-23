@@ -6,11 +6,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: $comic-font;
+    font-family: $main-font;
+    font-weight: 500;
     text-decoration: none;
 
     &__image {
-        background-image: url(../../../assets/samurai_warrior_japanese_mask_traditional_helmet_japan_face_icon_127293.svg);
+        background-image: url(../../../assets/001-katana.svg);
         width: 60px;
         height: 60px;
         margin-bottom: 10px;
@@ -19,22 +20,22 @@
 
     &__primary {
         font-size: 40px;
-        color: white;
+        color: black;
         margin-right: 5px; 
     }
 
     &__primary:hover {
         text-decoration: none;
-        color: white;
+        color: black;
     }
 
     &__secondary {
         font-size: 40px;
-        color: $samurai-blue;
+        color: black;
     }
 
     &__secondary:hover {
         text-decoration: none;
-        color: $samurai-blue;
+        color: black;
     }
 }

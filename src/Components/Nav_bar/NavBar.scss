@@ -1,9 +1,6 @@
-@import '../../General_settings/colors.scss';
-
 .app-header {
-    height: 100px;
-    background-color: $samurai-blue;
-    background-image: linear-gradient(315deg, $samurai-blue 0%, $samurai-purple 74%);
+    height: 120px;
+    background-color: white;
     
     .container {
         display: flex;
