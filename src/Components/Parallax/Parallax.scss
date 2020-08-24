@@ -1,0 +1,43 @@
+@import "../../General_settings/fonts.scss";
+@import '../../General_settings/colors.scss';
+
+.parallax-wrapper {
+  height: 80vh;
+//   margin-top: 20vh;
+  background-color: $samurai-green;
+
+  
+
+    .parallax {
+      background-image: url(../../assets/coconut.jpg);
+      height: 100%;
+      color: white;
+      font-family: $main-font;
+      font-weight: 500;
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      
+      h2 {
+          font-size: 40px;
+          line-height: 2em;
+          text-align: right;
+          width: 50%; 
+          margin: 0 120px 0 0;
+        }
+        
+        p {
+            font-size: 24px;
+            line-height: 1.5em;
+            text-align: right;
+            width: 50%; 
+            margin: 0 120px 150px 0;
+        }
+    }
+}
