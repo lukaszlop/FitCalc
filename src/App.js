@@ -4,6 +4,7 @@ import NavBar from './Components/Nav_bar/NavBar';
 import Carousel from './Components/Carousel/Carousel';
 import DietComponents from './Components/Diet_components/DietComponents';
 import Parallax from './Components/Parallax/Parallax';
+import Calculator from './Components/Calculator/Calculator';
 
 
 const App = () => (
@@ -12,6 +13,7 @@ const App = () => (
   <Carousel />
   <DietComponents />
   <Parallax />
+  <Calculator />
   </>
 )
 

@@ -11,7 +11,7 @@ const DietComponent = ({className, text}) => {
         onMouseLeave={() => setActive(!active)}
       >
         <div className={`diet-components__box__${className}`}></div>
-        <p className={active ? null : "show"}>{text}</p>
+        <p className={active ? null : "hide" }>{text}</p>
       </div>
     </>
   );
