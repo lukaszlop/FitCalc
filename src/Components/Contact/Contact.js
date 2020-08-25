@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 import "../Container/Container.scss";
-import '../../../node_modules/font-awesome/css/font-awesome.css';
+import "../../../node_modules/font-awesome/css/font-awesome.css";
 
 const Contact = () => {
   return (
@@ -13,13 +13,15 @@ const Contact = () => {
             <input type="text" placeholder="&#xf007;  Imię" />
             <input type="text" placeholder="&#xf0e0;  E-mail" />
           </div>
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Treść wiadomości"
-          ></textarea>
+          <div className="contact__message">
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Treść wiadomości"
+            ></textarea>
+          </div>
           <button type="submit">Wyślij</button>
         </div>
       </div>

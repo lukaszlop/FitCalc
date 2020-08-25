@@ -2,107 +2,113 @@
 @import "../../General_settings/colors.scss";
 
 .contact-wrapper {
-    max-height: 90vh;
-    background-color: $samurai-green;
-    padding-bottom: 100px;
+  min-height: 80vh;
+  background-color: $samurai-green;
+  padding-bottom: 50px;
 
-    .container {
-        max-height: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        z-index: 1;
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
 
-        &::after {
-            content: "";
-            width: 200px;
-            height: 200px;
-            background-color: $samurai-green;
-            position: absolute;
-            z-index: -1;
-            top: -40px;
-            border-radius: 50%;
-            border-bottom: 3px solid $samurai-dark-green;
-            border-right: 1px solid $samurai-green;
-            border-left: 1px solid $samurai-green;
-        }
-
-
-        .contact__headline {
-            color: white;
-            font-weight: 500;
-            font-size: 40px;
-            margin: 40px;
-            margin-bottom: 160px;
-        }
-
-        .contact__box {
-            width: 100%;
-            height: 100%;
-            padding: 50px 50px;
-            background-color: white;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-
-            .contact__info {
-                margin-bottom: 50px;
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-
-                input {
-                    height: 45px;
-                    font-size: 20px;
-                    border: 3px solid #ddd;
-                    padding-left: 15px;
-                    outline: none;
-                    border-radius: 5px;
-                    width: 50%;
-                    font-family: "Font Awesome 5 Free", $main-font;
-
-                    &:first-child {
-                        margin-right: 25px;
-                    }
-
-                    &:last-child {
-                        margin-left: 25px;
-                    }
-                }
-            }
-
-            textarea {
-                box-sizing: border-box;
-                font-size: 20px;
-                font-family: $main-font;
-                resize: none;
-                border: 3px solid #ddd;
-                padding: 15px;
-                outline: none;
-                border-radius: 5px;
-                width: 100%;
-                margin-bottom: 50px;
-            }
-
-
-            button {
-                font-family: $button-font;
-                font-weight: 700;
-                font-size: 20px;
-                color: white;
-                height: 45.47px;
-                border: 3px solid #ddd;
-                padding: 0 50px;
-                outline: none;
-                border-radius: 5px;
-                border: 3px solid $samurai-dark-green;
-                background-color: $samurai-green;
-                cursor: pointer;
-            }
-        }
+    &::after {
+      content: "";
+      width: 200px;
+      height: 200px;
+      background-color: $samurai-green;
+      position: absolute;
+      z-index: -1;
+      top: -40px;
+      border-radius: 50%;
+      border-bottom: 3px solid $samurai-dark-green;
+      border-right: 1px solid $samurai-green;
+      border-left: 1px solid $samurai-green;
     }
+
+    .contact__headline {
+      color: white;
+      font-weight: 500;
+      font-size: 40px;
+      margin: 40px;
+      margin-bottom: 120px;
+    }
+
+    .contact__box {
+      width: 100%;
+      height: 100%;
+      margin: 50px 50px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      .contact__info {
+        margin: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+          height: 45px;
+          font-size: 20px;
+          border: 3px solid #ddd;
+          padding-left: 15px;
+          outline: none;
+          border-radius: 5px;
+          width: 50%;
+          font-family: "Font Awesome 5 Free", $main-font;
+
+          &:first-child {
+            margin-right: 25px;
+            margin-left: 50px;
+          }
+
+          &:last-child {
+            margin-left: 25px;
+            margin-right: 50px;
+          }
+        }
+      }
+
+      .contact__message {
+        width: calc(100% - 100px);
+        margin-bottom: 50px;
+
+        textarea {
+          width: 100%;
+          box-sizing: border-box;
+          font-size: 20px;
+          font-family: $main-font;
+          resize: none;
+          border: 3px solid #ddd;
+          padding: 15px;
+          outline: none;
+          border-radius: 5px;
+        }
+      }
+
+      button {
+        font-family: $button-font;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        height: 45.47px;
+        border: 3px solid #ddd;
+        padding: 0 50px;
+        margin-bottom: 50px;
+        outline: none;
+        border-radius: 5px;
+        border: 3px solid $samurai-dark-green;
+        background-color: $samurai-green;
+        cursor: pointer;
+      }
+    }
+  }
 }

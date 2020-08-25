@@ -27,7 +27,7 @@ class NavBar extends Component {
   render() {
     return (
       <>
-        <header className={this.state.scrolled ? 'app-header scrolled' : 'app-header'}>
+        <header id="header" className={this.state.scrolled ? 'app-header scrolled' : 'app-header'}>
           <div className="container">
             <NavBarLogo />
             <NavBarMenu />

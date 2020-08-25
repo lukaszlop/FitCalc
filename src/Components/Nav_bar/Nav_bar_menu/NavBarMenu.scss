@@ -10,9 +10,11 @@
         height: 120px;
         display: flex;
         align-items: center;
+        
 
         a {
             color: black;
+            border-bottom: 4px solid white;
             text-decoration: none;
             font-weight: 700;
             font-size: 20px;
@@ -23,7 +25,7 @@
         }
 
         a:hover {
-            
+
             border-bottom: 4px solid $samurai-dark-green;
             color: $samurai-green;
         }
