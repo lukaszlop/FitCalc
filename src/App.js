@@ -5,6 +5,7 @@ import Carousel from './Components/Carousel/Carousel';
 import DietComponents from './Components/Diet_components/DietComponents';
 import Parallax from './Components/Parallax/Parallax';
 import Calculator from './Components/Calculator/Calculator';
+import Contact from './Components/Contact/Contact'
 
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
   <DietComponents />
   <Parallax />
   <Calculator />
+  <Contact />
   </>
 )
 

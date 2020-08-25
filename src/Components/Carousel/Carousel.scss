@@ -3,6 +3,10 @@
 .carousel-wrapper {
     background-color: $samurai-green;
 
+    .container {
+        position: relative;
+    }
+
     .carousel {
         width: 100%;
         display: flex;
@@ -27,6 +31,7 @@
         border: none;
         outline: none;
         background-color: rgba(255, 255, 255, .3);
+        cursor: pointer;
 
         &__left {
             left: 30px;
