@@ -1,6 +1,33 @@
+@import '../../General_settings/colors.scss';
+
 .app-header {
     height: 120px;
     background-color: white;
+    position: relative;
+
+    &__user__name {
+        position: absolute;
+        right: 0;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        
+        p {
+            
+        color: black;   
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120px;
+        height: 120px;
+        border-bottom: 4px solid transparent;
+        font-weight: 500;
+        padding: 0 35px;
+
+        }
+        span {
+            color: $samurai-green;
+        }
+    }
     
     .container {
         display: flex;
