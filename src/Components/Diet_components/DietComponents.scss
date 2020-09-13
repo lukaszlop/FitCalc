@@ -68,12 +68,34 @@
       border-radius: 50%;
       border: 5px solid $samurai-dark-green;
 
-      .hide {
-        display: none;
+      &:hover p {
+        opacity: 1;
+      }
+
+      &:hover .diet-components__box__meal {
+        transform: translateY(0px);
+      }
+
+      &:hover .diet-components__box__meat,
+      &:hover .diet-components__box__grain,  {
+        transform: translateY(10px);
+      }
+
+      .diet-components__box__meal {
+        transform: translateY(30px);
+        transition: transform 500ms, height 4s;
+      }
+
+      .diet-components__box__meat,
+      .diet-components__box__grain {
+        transform: translateY(50px);
+        transition: transform 600ms, height 4s;
       }
 
       p {
+        transition: opacity 1s, height 4s;
         font-size: 24px;
+        opacity: 0;
         color: white;
         font-family: $main-font;
         font-weight: 500;
@@ -88,6 +110,7 @@
         background-image: url(../../assets/meat.png);
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
       }
 
       &__eggs {
